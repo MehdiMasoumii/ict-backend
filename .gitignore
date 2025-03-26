@@ -1,0 +1,43 @@
+# .gitignore for a .NET 9 Web API project
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore Rider project files
+.idea/
+*.sln.iml
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore publish outputs
+publish/
+
+# Ignore configuration files
+appsettings*.json
+
+# Ignore secrets
+secrets.json
+
+# Ignore other files
+*.DS_Store
+*.lock.json

@@ -1,0 +1,39 @@
+# EditorConfig is a file format and collection of text editor plugins
+# for maintaining consistent coding styles between different editors and IDEs.
+
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+indent_style = space
+indent_size = 4
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C# files
+[*.cs]
+# Use Visual Studio format for code style
+dotnet_sort_system_directives_first = true
+csharp_space_after_keywords_in_control_flow_statements = true
+csharp_new_line_before_open_brace = all
+csharp_indent_case_contents = true
+csharp_indent_switch_labels = true
+dotnet_diagnostic.CA1707.severity = none # Disable warnings for non-standard naming
+dotnet_diagnostic.IDE0044.severity = suggestion # Make 'readonly' optional for private fields
+
+# JSON files
+[*.json]
+indent_style = space
+indent_size = 2
+
+# Markdown files
+[*.md]
+trim_trailing_whitespace = false
+
+# Optional additional configurations
+[*.csproj]
+indent_style = space
+indent_size = 2
