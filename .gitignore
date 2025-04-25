@@ -10,6 +10,7 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+/utils/DbBuilder.cs
 
 # Ignore Rider project files
 .idea/

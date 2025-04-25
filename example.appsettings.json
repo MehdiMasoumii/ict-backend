@@ -1,0 +1,20 @@
+{
+    "Logging": {
+      "LogLevel": {
+        "Default": "Information",
+        "Microsoft.AspNetCore": "Warning"
+      }
+    },
+    "AllowedHosts": "*",
+    "ConnectionStrings": {
+      "DefaultConnection": "Host=localhost;Port=YOUR_POSTGRES_RUNNING_PORT;Database=ICT-Backend;Username=YOUR_POSTGRES_USERNAME;Password=YOUR_POSTGRES_PASSWORD"
+    },
+    "Kestrel": {
+      "Endpoints": {
+        "HTTP":{
+          "Url": "http://localhost:5000"
+        }
+      }
+    }
+  }
+  
